@@ -1,0 +1,13 @@
+<Context>
+    <Resource
+            name="jdbc/phone"
+            auth="Container"
+            type="javax.sql.DataSource"
+            username="PRODUCTS"
+            password="12345"
+            initialSize="10"
+            maxActive="100"
+            maxIdle="10"
+            driverClassName="oracle.jdbc.driver.OracleDriver"
+            url="jdbc:oracle:thin:@localhost:1521:XE"/>
+</Context>
